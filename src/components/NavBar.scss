@@ -1,0 +1,94 @@
+.header{
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    width: 100vw;
+    z-index: 999999;
+    box-shadow: 3px 3px 3px 3px rgb(228, 227, 227);
+    button{
+      margin-left: 1rem;
+      border: none;
+      background-color: transparent;
+    }
+  }
+  .nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    ul{
+      display: flex;
+      gap: 1rem;
+    }
+    li{
+      a:hover{
+        border-bottom: 1px solid black;
+        transition: 2s;
+      }
+      a{
+        color: #313131;
+        transition: 2s;
+      }
+    }
+    a{
+      margin-left: 2px;
+      color: black;
+     .nav-icon{
+      margin-left: 2rem;
+     }
+    }
+    a:hover{
+      color:black;
+    }
+    img{
+      width:6rem;
+    }
+  }
+  .navbar-responsive{
+    position: absolute;
+    top: 0;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    height: 100vh;
+    width: 100vw;
+    background-color: #F3F3F3;
+    ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;  
+      
+    }
+    .burger{
+      display: flex;
+      position: absolute;
+      right: 5rem;
+      top: 3rem;
+    }
+  }
+  .burger{
+    display: none;
+    flex-direction: column;
+    gap: .5rem;
+    cursor: pointer;
+  }
+  .burger span{
+    height: 3px;
+    background-color: black;
+    width: 35px;
+  }
+  @media screen and (max-width:768px){
+    .burger{
+      display: flex;
+    }
+
+    nav ul li{
+      display: none;
+    }
+  }

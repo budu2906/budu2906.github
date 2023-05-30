@@ -1,0 +1,40 @@
+.shop-now-reverse{
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    a p{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+        height: 40px;
+        width: 125px;
+        color: white;
+        background-color: black;
+        transition: .5s;
+       
+    }
+    a p:hover{
+        background-color: white;
+        color: black;
+        transition: .5s;
+    }
+}
+.shop-reverse-right{
+grid-row: 1;
+}
+.shop-reverse-left{
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9E9;
+    justify-content: center;
+    div{
+        margin:auto;
+    }
+    p:nth-child(2){
+        max-width: 40ch;
+        padding: 1rem 0;
+    }
+}
