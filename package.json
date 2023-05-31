@@ -2,7 +2,7 @@
   "name": "react-project1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://runningwilder.github.io/furniture-shop/",
+  "homepage": "https://budu2906.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "react-scripts build",
-    "deploy": "gh_pages -d build"
+    "deploy": "gh-pages -d build -b furniture-shop"
   },
   "eslintConfig": {
     "extends": [
